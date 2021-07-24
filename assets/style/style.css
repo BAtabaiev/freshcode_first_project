@@ -10,7 +10,7 @@ body {
   height: 500px;
   min-width: 220px;
   max-width: 400px;
-  background-color: red;
+  background: linear-gradient(to top, #f50a0a, #f3927a);
   margin: 20px;
   color: white;
   overflow: hidden;
