@@ -36,9 +36,6 @@ body {
 }
 .userStatItem {
   display: inline-block;
-  font-weight: 900;
-  font-size: 15px;
-  color: black;
 }
 .userCard > * {
   display: block;
@@ -67,4 +64,10 @@ body {
 .userInfo {
   margin-top: 20px;
   font-size: 20px;
+}
+
+.userStatName {
+  font-weight: 900;
+  font-size: 15px;
+  color: black;
 }
