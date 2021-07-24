@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+body {
+  background-color: black;
+}
+.userCard {
+  width: 100%;
+  height: 500px;
+  min-width: 220px;
+  max-width: 400px;
+  background-color: red;
+  margin: 20px;
+  color: white;
+  overflow: hidden;
+  text-align: center;
+}
+.userImageContainer {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.userImageContainer > img {
+  width: inherit;
+  height: inherit;
+  object-fit: contain;
+  border: 5px solid darkred;
+  border-radius: 70px;
+}
+
+.userStatContainer {
+  padding: 20px;
+  display: block;
+}
+.userStatItem {
+  display: inline-block;
+  font-weight: 900;
+  font-size: 15px;
+  color: black;
+}
+.userCard > * {
+  display: block;
+  margin-top: 10px;
+}
+
+.inst,
+.facebook,
+.telegramm {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.userFullName {
+  font-size: 50px;
+  font-weight: 700;
+}
+.userLink {
+  font-size: 20px;
+  font-style: italic;
+}
+.userInfo {
+  margin-top: 20px;
+  font-size: 20px;
+}
